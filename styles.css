@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  h3 {
+    margin: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(9, 40px);
+    grid-template-rows: repeat(9, 40px);
+    gap: 2px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .grid div {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Frog */
+  .frog {
+    background-color: green;
+  }
+  
+  /* Ending block */
+  .ending-block {
+    background-color: gold;
+  }
+  
+  /* Log and car classes for animation */
+  .log-left.l1, .log-right.l1 {
+    background-color: #a0c4ff;
+  }
+  .log-left.l2, .log-right.l2 {
+    background-color: #89c2d9;
+  }
+  .log-left.l3, .log-right.l3 {
+    background-color: #61a5c2;
+  }
+  .log-left.l4, .log-right.l4 {
+    background-color: #468faf;
+  }
+  .log-left.l5, .log-right.l5 {
+    background-color: #2c7da0;
+  }
+  
+  .car-left.c1, .car-right.c1 {
+    background-color: red;
+  }
+  .car-left.c2, .car-right.c2 {
+    background-color: orange;
+  }
+  .car-left.c3, .car-right.c3 {
+    background-color: yellow;
+  }
+  
